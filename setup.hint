@@ -1,0 +1,8 @@
+category: Dotnet
+requires: cygwin mono
+sdesc: "Mono memory profiling tool"
+ldesc: "Heap-Buddy is a summarizing memory profiling tool for Mono.  It 
+attaches to special hooks in the Mono runtime and tracks all of the 
+managed memory allocations, every garbage collection, and every heap 
+resize. The statistics are written out into a data file that can then be 
+analyzed by the heap-buddy tool."
