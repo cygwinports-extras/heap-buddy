@@ -4,7 +4,7 @@
  	outfile-writer.c			\
  	heap-buddy.c
  
-+libmono_profiler_heap_buddy_la_LDFLAGS = -avoid-version -no-undefined
++libmono_profiler_heap_buddy_la_LDFLAGS = -module -avoid-version -no-undefined
  libmono_profiler_heap_buddy_la_LIBADD = @PROFILER_LIBS@
  
 -INCLUDES = @PROFILER_CFLAGS@ -Wall
